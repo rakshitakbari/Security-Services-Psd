@@ -1,0 +1,44 @@
+#service{
+    &.section-gap {
+        padding: 120px 0;
+        @include media-breakpoint-down(md){
+            padding: 40px 0;
+        }
+    }
+    .single-service{
+        margin-top: 40px;
+        background-color: $white;
+        padding: 20px;
+        -webkit-transition: all 0.3s ease 0s;
+        -moz-transition: all 0.3s ease 0s;
+        -o-transition: all 0.3s ease 0s;
+        transition: all 0.3s ease 0s;
+        box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        border-radius: 6px;
+        .thumb{
+            img {
+                width: 100%;
+            }
+        }
+        .detail{
+            a{
+                &:hover{
+                    text-decoration: none;
+                }
+                h4{
+                    font-size: 18px;
+                    font-weight: 600;
+                    line-height: 1.625em;
+                    color: $black;
+                }
+            }
+            p{
+                margin-bottom: 16px;
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 1.625em;
+                color: #777777;
+            }
+        }
+    }
+}

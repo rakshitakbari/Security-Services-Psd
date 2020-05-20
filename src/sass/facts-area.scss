@@ -1,0 +1,25 @@
+#facts-area{
+    background-color: $theme-color;
+    padding: 120px 0;
+    @include media-breakpoint-down(md){
+        padding: 40px 0;
+    }
+    .single-fact{
+        h1 {
+            font-weight: 700;
+            font-size: 48px;
+            color: $black;
+            line-height: 1.2em !important;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        p{
+            color: $black;
+            margin-bottom: 16px;
+            font-size: 14px;
+            color: $black;
+            font-weight: 300;
+            line-height: 1.625em;
+        }
+    }
+}

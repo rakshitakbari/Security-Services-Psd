@@ -1,0 +1,55 @@
+#contact{
+    padding: 60px 0 0;
+    @include media-breakpoint-down(sm){
+        padding: 10px 0 0;
+    }
+    .contact-bg{
+        background-color: #a2c0be;
+        h2{
+            font-size: 26px;
+            font-weight: 500;
+            line-height: 1.2;
+            color: #405a58;
+        }
+        label{
+            color: #567876;
+            line-height: 1.7;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+        input{
+            border: none;
+            border-radius: 5px;
+            &:focus{
+                box-shadow: none
+            }
+        }
+        input[type="submit"]{
+            font-size: 14px;
+            padding: 12px 30px;
+        }
+    }
+    .bg-secondary {
+        background-color: #6c757d;
+        .list-unstyled {
+            padding-left: 0;
+            list-style: none;
+            li {
+                color: #a8b1b8;
+                margin-bottom: 20px;
+                span {
+                    color: $white;
+                    line-height: 1.7;
+                    font-weight: 400;
+                    font-size: 16px;
+                }
+                p{
+                    line-height: 1.7;
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #a8b1b8 !important;
+                }
+            }
+        }
+    }
+}

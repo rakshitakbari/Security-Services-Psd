@@ -1,0 +1,63 @@
+#home{
+    background: url(../images/header-bg.jpg) center;
+    background-size: cover;
+    .overlay-bg {
+        background-color: rgba(0, 0, 0, 0.7);
+    }
+    .overlay {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .fullscreen{
+        height: 882px;
+    }
+    .banner-content{
+        text-align: left;
+        h6 {
+            font-size: 14px;
+            font-weight: 400;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        h1 {
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 1em;
+            margin-top: 20px;
+        }
+        p{
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 1.625em;
+            color: $white;
+        }
+        .primary-btn {
+            background-color: $theme-color;
+            line-height: 42px;
+            padding-left: 40px;
+            padding-right: 40px;
+            border: none;
+            color: $white;
+            display: inline-block;
+            font-weight: 500;
+            position: relative;
+            border: 1px solid transparent;
+            -webkit-transition: all 0.3s ease 0s;
+            -moz-transition: all 0.3s ease 0s;
+            -o-transition: all 0.3s ease 0s;
+            transition: all 0.3s ease 0s;
+            cursor: pointer;
+            text-transform: uppercase;
+            position: relative;
+            &:hover{
+                color: $theme-color;
+                background-color: transparent;
+                border-color: $theme-color;
+                text-decoration: none;
+            }
+        }
+    }
+}

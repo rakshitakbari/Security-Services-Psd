@@ -1,0 +1,18 @@
+#gallery{
+    margin-top: 80px;
+    @include media-breakpoint-down(md){
+        margin-top: 40px;
+    }
+    .section-gap {
+        padding: 120px 0;
+        @include media-breakpoint-down(md){
+            padding: 40px 0;
+        }
+    }
+    .single-gallery{
+        img {
+            width: 100%;
+            padding-bottom: 30px;
+        }
+    }
+}
